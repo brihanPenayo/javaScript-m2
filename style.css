@@ -19,12 +19,12 @@ body{
 .class_card{
     text-align: center;
     font-size: 3vmin;
-    padding: 50px;
     border-radius: 2vmin;
     background-color: #c2c2c2;
     transition-property: transform, background-color, box-shadow;
     transition-duration: 150ms;
     a{
+        padding: 50px;
         display: block;
         text-decoration: none;
         color: rgb(12, 12, 12);
