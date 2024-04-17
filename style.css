@@ -25,6 +25,7 @@ body{
     transition-property: transform, background-color, box-shadow;
     transition-duration: 150ms;
     a{
+        display: block;
         text-decoration: none;
         color: rgb(12, 12, 12);
         &:hover{
