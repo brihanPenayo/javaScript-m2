@@ -1,0 +1,16 @@
+body{
+    background-color: rgb(12, 12, 12);
+    color: #f6f6f6;
+}
+
+#btn-titulo{
+    padding: 30px;
+    background-color: blue;
+    color: white;
+    border-radius: 5vmin;
+}
+
+#btn-titulo:active{
+    background-color: rgb(7, 7, 101);
+    transform: scale(0.8);
+}
