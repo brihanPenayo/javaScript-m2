@@ -42,6 +42,26 @@ body {
 
 .letraCorrecta{
     background-color: rgb(78, 207, 78);
+    animation: agrandar 0.4s ease-in;
+}
+
+.letraExiste{
+    background-color: rgb(195, 205, 5);
+    animation: agrandar 0.4s;
+}
+
+.letraNoExiste{
+    background-color: rgb(0, 0, 0);
+    animation: agrandar 0.4s;
+}
+
+@keyframes agrandar {
+    from{
+        transform: scaleY(0.75);
+    }
+    to{
+        transform: scaleY(1);
+    }
 }
 
 input {
