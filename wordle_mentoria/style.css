@@ -57,7 +57,7 @@ body {
 
 @keyframes agrandar {
     from{
-        transform: scaleY(0.75);
+        transform: scaleY(0.25);
     }
     to{
         transform: scaleY(1);
