@@ -1,4 +1,4 @@
-let mi_palabra = ''
+let mi_palabra
 
 // async / await
 
@@ -6,13 +6,13 @@ let mi_palabra = ''
 async function traerPalabra() {
     const res = await fetch('https://random-word-api.herokuapp.com/word?length=5')
     const data = await res.json()
-    // console.log(data[0])
     mi_palabra = await data[0].toUpperCase()
 }
 
 
 traerPalabra()
 
+console.log(mi_palabra)
 // Funcion SIN Async/await
 // function traerPalabra() {
 //     fetch('https://random-word-api.herokuapp.com/word?length=5')
@@ -101,11 +101,6 @@ let miObjeto = {
 // console.log(miObjeto.imprimirEdad())
 // console.log(miObjeto.imprimirNombre())
 
-
-
-
-
-
 // dimos enter
 // variable intento vale 0
 // entro el for 
@@ -114,6 +109,4 @@ let miObjeto = {
 // setTimeOut ahora recién se ejecuta
 // setTimeOut ahora recién se ejecuta
 // mi variable intento vale 1
-
-
 
