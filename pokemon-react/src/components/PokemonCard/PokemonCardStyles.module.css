@@ -1,0 +1,13 @@
+.card {
+    background-color: gray;
+    border-radius: 2vmin;
+    padding: 2rem;
+    border: 4px solid black;
+}
+
+.card > img {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    border-radius: 1vmin;
+    object-fit: cover;
+}
