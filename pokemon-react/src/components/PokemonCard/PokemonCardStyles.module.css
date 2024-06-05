@@ -1,8 +1,8 @@
 .card {
-    background-color: gray;
+    background-color: fuchsia;
     border-radius: 2vmin;
     padding: 2rem;
-    border: 4px solid black;
+    border: 4px solid black
 }
 
 .card > img {
